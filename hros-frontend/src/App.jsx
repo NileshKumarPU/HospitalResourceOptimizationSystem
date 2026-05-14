@@ -2,7 +2,7 @@
 
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
-
+import { Analytics } from "@vercel/analytics/next"
 function App() {
   return (
     <BrowserRouter>
