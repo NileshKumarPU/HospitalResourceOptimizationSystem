@@ -2,14 +2,14 @@
 
 import { Routes, Route } from "react-router-dom";
 
-import HomePage from "../pages/HomePage";
+import HomePage from "../pages/Homepage.jsx";
 
 
 
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<HomePage/>} />
       {/* <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/admin" element={<Admin />} />
       <Route path="/patients" element={<Patients />} />
